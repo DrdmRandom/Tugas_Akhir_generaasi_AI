@@ -1,0 +1,8 @@
+batch_size = 64
+image_size = 64       # resolusi gambar (64x64)
+nz = 100              # dimensi vektor noise (input generator)
+num_epochs =  150        # silakan disesuaikan
+lr = 0.0002
+beta1 = 0.5
+ngf = 64  # generator feature map size
+ndf = 64  # discriminator feature map size
